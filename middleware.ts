@@ -18,6 +18,9 @@ export async function middleware(request: NextRequest) {
       }
     }
   } else {
+    if (request.nextUrl.pathname == "/") {
+      return NextResponse.redirect(new URL("/welcome", request.url));
+    }
     if (request.nextUrl.pathname != "/login") {
       return NextResponse.redirect(new URL("/login", request.url));
     }
@@ -27,5 +30,7 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|auth|terms-of-service|privacy-policy).*)"],
+  matcher: [
+    "/((?!_next/static|_next/image|favicon.ico|auth|terms-of-service|privacy-policy|welcome).*)",
+  ],
 };

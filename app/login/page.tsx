@@ -26,8 +26,8 @@ export default function Login({
   return (
     <div className="w-full px-3 sm:max-w-xl mt-20 text-center">
       <form action={signIn}>
-        <h2 className="font-bold text-4xl mb-4 text-center">Welcome to <span className="text-crimson">Crimson CarShare</span></h2>
-        <h3 className="font-semibold text-lg text-center mb-8">The easiest way to split rides with other Harvard students</h3>
+        <h2 className="font-bold text-4xl mb-4 text-center">Login to <span className="text-crimson">Crimson CarShare</span></h2>
+        <h3 className="font-semibold text-lg text-center mb-8">Select your Harvard College email to login/create an account:</h3>
         <button className="gsi-material-button">
           <div className="gsi-material-button-state"></div>
           <div className="gsi-material-button-content-wrapper">
