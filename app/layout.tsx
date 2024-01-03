@@ -12,6 +12,21 @@ export const metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Crimson CarShare",
   description: "Personal CarSharing for Harvard Students",
+  openGraph: {
+    title: "Crimson CarShare",
+    description: "Personal CarSharing for Harvard Students",
+    url: "https://crimson-carshare.live",
+    siteName: "Crimson CarShare",
+    images: [
+      {
+        url: "https://arztucsgkimyfwgxmyms.supabase.co/storage/v1/object/public/images/Logo.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -21,23 +36,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <Head>
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={"https://crimson-carshare.live"} />
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
-        <meta
-          property="og:image"
-          content={
-            "https://arztucsgkimyfwgxmyms.supabase.co/storage/v1/object/public/images/Logo.png"
-          }
-        />
-        <meta
-          property="og:image:secure_url"
-          content="https://arztucsgkimyfwgxmyms.supabase.co/storage/v1/object/public/images/Logo.png"
-        />
-      </Head>
       <body className="bg-background text-foreground">
         <Header />
         <main className="min-h-[80vh] flex flex-col items-center">
