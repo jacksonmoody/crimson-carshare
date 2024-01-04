@@ -2,7 +2,7 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Head from "next/head";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -37,6 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className}>
       <body className="bg-background text-foreground">
+        <SpeedInsights />
         <Header />
         <main className="min-h-[80vh] flex flex-col items-center">
           {children}
