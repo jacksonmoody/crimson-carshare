@@ -39,7 +39,7 @@ export default function RootLayout({
       <body className="bg-background text-foreground">
         <SpeedInsights />
         <Header />
-        <main className="min-h-[80vh] flex flex-col items-center">
+        <main className="min-h-[80vh]">
           {children}
         </main>
         <Footer />

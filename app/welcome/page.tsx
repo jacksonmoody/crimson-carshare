@@ -11,7 +11,7 @@ export default function Welcome() {
             Welcome to Crimson CarShare
           </h1>
           <p className="max-w-xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
-            The easiest way for Harvard Students to find rides to share with
+            The easiest way for Harvard students to find rides to share with
             others.
           </p>
           <a
@@ -42,7 +42,7 @@ export default function Welcome() {
       </div>
       <div className="animate-in text-center">
         <hr className="h-px my-8 bg-gray-200 border-0" />
-        <h1 className="text-4xl xl:text-5xl font-extrabold lg:mt-20 lg:mb-16">
+        <h1 className="text-3xl xl:text-5xl font-extrabold lg:mt-20 lg:mb-16">
           How It Works
         </h1>
         <div className="flex flex-col items-center justify-center md:flex-col lg:flex-row">
@@ -56,7 +56,7 @@ export default function Welcome() {
               <h4 className="text-2xl font-extrabold text-dark-grey-900">
                 Create an account
               </h4>
-              <p className="text-base font-medium leading-7 text-dark-grey-600 lg:px-8">
+              <p className="text-base font-light leading-7 text-gray-500 lg:px-8">
                 Share your contact information and preferences to get
                 personalized ride sharing suggestions
               </p>
@@ -72,7 +72,7 @@ export default function Welcome() {
               <h4 className="text-2xl font-extrabold text-dark-grey-900">
                 Join rides
               </h4>
-              <p className="text-base font-medium leading-7 text-dark-grey-600 lg:px-8">
+              <p className="text-base font-light leading-7 text-gray-500 lg:px-8">
                 Easily see upcoming rides and join them with a single click
               </p>
             </div>
@@ -87,7 +87,7 @@ export default function Welcome() {
               <h4 className="text-2xl font-extrabold text-dark-grey-900">
                 Organize rides
               </h4>
-              <p className="text-base font-medium leading-7 text-dark-grey-600 lg:px-8">
+              <p className="text-base font-light leading-7 text-gray-500 lg:px-8">
                 If you already have a ride scheduled, post it on Crimson
                 CarShare to share with other students
               </p>
