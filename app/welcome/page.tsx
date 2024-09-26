@@ -35,7 +35,7 @@ export default function Welcome() {
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <img
-            src="https://arztucsgkimyfwgxmyms.supabase.co/storage/v1/object/public/images/Hero.gif"
+            src="https://i.ibb.co/brbZWdF/pngwing-com.png"
             alt="Animated Car Image"
           ></img>
         </div>
