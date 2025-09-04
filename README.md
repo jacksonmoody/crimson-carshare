@@ -1,6 +1,6 @@
 # Crimson Carshare
 
-This is an application to allow Harvard College students to rideshare with each other. It is built with Next.js and Supabase.
+This is an application to allow Harvard College students to share rides with each other. It is built with Next.js and Supabase.
 
 ## Getting Started
 
