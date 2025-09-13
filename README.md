@@ -7,13 +7,13 @@ This is an application to allow Harvard College students to share rides with eac
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/jacksonmoody/personal-starter-project.git
+git clone https://github.com/jacksonmoody/crimson-carshare.git
 ```
 
 2. Install dependencies:
 
 ```bash
-cd personal-starter-project
+cd crimson-carshare
 npm install
 ```
 
