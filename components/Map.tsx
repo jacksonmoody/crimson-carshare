@@ -5,7 +5,7 @@ import {
   useJsApiLoader,
   LoadScriptProps,
 } from "@react-google-maps/api";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 
 interface Marker {
   lat: number | undefined;

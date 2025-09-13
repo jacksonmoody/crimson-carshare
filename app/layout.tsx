@@ -11,10 +11,10 @@ const defaultUrl = process.env.VERCEL_URL
 export const metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Crimson CarShare",
-  description: "Personal CarSharing for Harvard Students",
+  description: "Personal ridesharing for Harvard Students",
   openGraph: {
     title: "Crimson CarShare",
-    description: "Personal CarSharing for Harvard Students",
+    description: "Personal ridesharing for Harvard Students",
     url: "https://crimson-carshare.tech",
     siteName: "Crimson CarShare",
     images: [

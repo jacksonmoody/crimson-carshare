@@ -220,7 +220,7 @@ export default function Index() {
               <figure className="h-full w-40">
                 <img
                   src={
-                    "https://arztucsgkimyfwgxmyms.supabase.co/storage/v1/object/public/images/" +
+                    "https://zwkhivrhtdpezbgculys.supabase.co/storage/v1/object/public/images/" +
                     transit +
                     ".jpeg"
                   }
